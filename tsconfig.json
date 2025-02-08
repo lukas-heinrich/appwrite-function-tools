@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"module": "ESNext",
+
+		"strict": true,
+		"moduleResolution": "bundler",
+		"declaration": true,
+		"outDir": "./dist",
+
+		"allowArbitraryExtensions": true,
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"rewriteRelativeImportExtensions": true,
+		"verbatimModuleSyntax": true
+	},
+	"include": ["src/**/*.ts"]
+}
