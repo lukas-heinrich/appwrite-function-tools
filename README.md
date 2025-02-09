@@ -18,6 +18,19 @@ notice any problems feel free to create a pull request.
 
 ## Usage
 
+### Installation
+
+```bash
+# npm
+npm install appwrite-function-tools
+
+# pnpm
+pnpm add appwrite-function-tools
+
+# bun
+bun add appwrite-function-tools
+```
+
 ### Type Definitions
 
 See the following example based on the appwrite starter function for a basic usage of the type definitions:
