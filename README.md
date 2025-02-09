@@ -1,4 +1,4 @@
-# Appwrite Functions Utilities
+# Appwrite Functions Tools
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Appwrite Version](https://img.shields.io/badge/Appwrite_Version-1.6.0-red)
@@ -23,7 +23,7 @@ notice any problems feel free to create a pull request.
 See the following example based on the appwrite starter function for a basic usage of the type definitions:
 
 ```ts
-import { FunctionEntrypoint } from 'appwrite-function-utils';
+import { FunctionEntrypoint } from 'appwrite-function-tools';
 
 export default async ({ req, res, log, error }: FunctionEntrypoint) => {
 	// ⬇️ Type Safe access to the request, response, logger and error handler
@@ -64,7 +64,7 @@ To use the global types, you need to create a `global.d.ts` file in the root of 
 declare the environment variables or provide type safety for the Appwrite functions runtime without importing the types.
 
 ```ts
-import type { FunctionEnvironment } from 'appwrite-function-utils';
+import type { FunctionEnvironment } from 'appwrite-function-tools';
 
 // Declare Bun environment variables for the Appwrite functions runtime
 declare module 'bun' {

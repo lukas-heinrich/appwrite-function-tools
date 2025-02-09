@@ -1,5 +1,5 @@
 {
-	"name": "appwrite-function-utils",
+	"name": "appwrite-function-tools",
 	"author": "lukas-heinrich",
 	"description": "A collection of utility functions and type definitions for Appwrite functions",
 	"version": "1.0.0",
@@ -27,6 +27,6 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/lukas-heinrich/appwrite-function-utils.git"
+		"url": "https://github.com/lukas-heinrich/appwrite-function-tools.git"
 	}
 }
