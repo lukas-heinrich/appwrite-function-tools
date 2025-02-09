@@ -2,7 +2,6 @@
 	"name": "appwrite-function-utils",
 	"author": "lukas-heinrich",
 	"description": "A collection of utility functions and type definitions for Appwrite functions",
-	"license": "MIT",
 	"version": "1.0.0",
 	"module": "dist/index.js",
 	"main": "dist/index.cjs",
@@ -19,5 +18,15 @@
 	},
 	"files": [
 		"dist/**/*"
-	]
+	],
+	"license": "MIT",
+	"keywords": [
+		"Appwrite",
+		"Appwrite Functions",
+		"TypeScript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lukas-heinrich/appwrite-function-utils.git"
+	}
 }

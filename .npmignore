@@ -1,0 +1,39 @@
+# Source
+src/
+
+# Tests
+tests/
+coverage/
+*.test.ts
+*.spec.ts
+
+# Config files
+tsconfig.json
+tsup.config.ts
+.prettierrc
+.eslintrc
+jest.config.*
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+*.tsbuildinfo
+.npm
+.eslintcache
+
+# Development
+node_modules/ 
