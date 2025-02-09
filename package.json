@@ -15,5 +15,8 @@
 	},
 	"files": [
 		"dist/**/*"
-	]
+	],
+	"dependencies": {
+		"route-recognizer": "^0.3.4"
+	}
 }
