@@ -2,21 +2,22 @@
 	"name": "appwrite-function-utils",
 	"author": "lukas-heinrich",
 	"description": "A collection of utility functions and type definitions for Appwrite functions",
+	"license": "MIT",
 	"version": "1.0.0",
 	"module": "dist/index.js",
-	"main": "dist/index.js",
+	"main": "dist/index.cjs",
 	"types": "dist/index.d.ts",
 	"type": "module",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsup"
+	},
+	"dependencies": {
+		"route-recognizer": "^0.3.4"
 	},
 	"devDependencies": {
-		"typescript": "^5.7.3"
+		"tsup": "^8.3.6"
 	},
 	"files": [
 		"dist/**/*"
-	],
-	"dependencies": {
-		"route-recognizer": "^0.3.4"
-	}
+	]
 }
